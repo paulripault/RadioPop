@@ -1,0 +1,15 @@
+lib/
+├── core/               # Code commun à toute l'application (utils, constants, etc.)
+├── data/               # Couche Données
+│   ├── datasources/    # Sources de données (API, base de données locale)
+│   ├── models/         # Modèles de données (DTOs)
+│   ├── repositories/   # Répertoires pour accéder aux données
+├── domain/             # Couche Domaine
+│   ├── entities/       # Objets métier
+│   ├── repositories/   # Interfaces de répertoires
+│   └── usecases/       # Cas d'utilisation (logique métier)
+├── presentation/       # Couche Présentation
+│   ├── pages/          # Écrans de l'application
+│   ├── widgets/        # Composants réutilisables
+│   └── providers/      # Gestion d'état (Provider, Bloc, etc.)
+└── main.dart           # Point d'entrée de l'application
